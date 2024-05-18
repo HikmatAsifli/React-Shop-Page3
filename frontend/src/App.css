@@ -1,8 +1,12 @@
 .section-title h2 {
-    font-size: 36px;
-    color: #1a1a1a;
-    line-height: 27px;
-    font-weight: 700;
-    position: relative;
-    margin-bottom: 28px;
-  }
+  font-size: 36px;
+  color: #1a1a1a;
+  line-height: 27px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 28px;
+}
+
+a:hover {
+  color: #ff3368 !important;
+}
