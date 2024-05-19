@@ -7,6 +7,10 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
 
+  img{
+    width: 100% !important;
+  }
+
   .product-content {
     padding: 32px 0;
     background-color: #fff;

@@ -66,5 +66,5 @@ mongoose.connect(process.env.CONNECTION_STRING).then(res => {
 })
 
 app.listen(process.env.PORT, (req, res) => {
-    console.log("api running on 8080")
+    console.log("api running on 4404")
 })

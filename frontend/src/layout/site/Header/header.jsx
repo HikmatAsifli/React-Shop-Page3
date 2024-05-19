@@ -15,28 +15,28 @@ const Header = () => {
 
         <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li>
-            <Link to="#" className="nav-link px-2 link-secondary">
+            <Link to="/" className="nav-link px-2 link-secondary">
               Home
             </Link>
           </li>
           <li>
-            <Link to="#" className="nav-link px-2 link-dark">
-              Shop
+            <Link to="/admin" className="nav-link px-2 link-dark">
+              Admin
             </Link>
           </li>
           <li>
-            <Link to="#" className="nav-link px-2 link-dark">
-              Pages
+            <Link to="/admin/add" className="nav-link px-2 link-dark">
+              Add Products
             </Link>
           </li>
           <li>
-            <Link to="#" className="nav-link px-2 link-dark">
-              Blog
+            <Link to="/admin/products" className="nav-link px-2 link-dark">
+              Products
             </Link>
           </li>
           <li>
-            <Link to="#" className="nav-link px-2 link-dark">
-              Contact
+            <Link to="/basket" className="nav-link px-2 link-dark">
+              Basket
             </Link>
           </li>
         </ul>

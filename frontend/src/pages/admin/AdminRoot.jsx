@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Outlet } from 'react-router'
-import Header from '../../layout/admin/Header/header'
+import Header from '../../layout/site/Header/header'
 import Footer from '../../layout/admin/Footer/footer'
 
 const AdminRoot = () => {

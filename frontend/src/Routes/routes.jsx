@@ -1,10 +1,11 @@
-
+import Add from "../pages/admin/add/add"
 import AdminRoot from "../pages/admin/AdminRoot"
 import Dashboard from "../pages/admin/dashboard/dashboard"
-import Add from "../pages/admin/add/add"
 import Error from "../pages/error/error/error"
 import SiteRoot from "../pages/site/SiteRoot"
 import Home from "../pages/site/home/home"
+import Basket from "../pages/site/Basket/Basket"
+import Products from "../pages/admin/Products/Products"
 
 const ROUTES =[
     {
@@ -14,6 +15,10 @@ const ROUTES =[
             {
                 path:"",
                 element:<Home/>
+            },
+            {
+                path: "basket",
+                element: <Basket/>
             }
         ]
     },
@@ -26,8 +31,12 @@ const ROUTES =[
                 element:<Dashboard/>
             },
             {
-                path:"add",
-                element:<Add/>
+                path: "add",
+                element: <Add/>
+            },
+            {
+                path: "products",
+                element: <Products/>
             }
         ]
     }
